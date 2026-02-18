@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.signup-btn {
+    width: 95%;
+    padding: 12px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background: #00c6ff;
+}
+
+.or {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Social Buttons */
+
+button.google,
+button.facebook,
+button.twitter {
+    width: 95%;
+    padding: 12px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.google {
+    background: #db4437;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+.twitter {
+    background: #1da1f2;
+}
+
+button i {
+    margin-right: 8px;
+}
